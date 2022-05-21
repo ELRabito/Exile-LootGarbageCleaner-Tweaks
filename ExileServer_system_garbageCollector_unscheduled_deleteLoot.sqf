@@ -19,7 +19,7 @@ private _index = -1;
 		continue;
 	}; 
 	private _nearPlayersCount = count (_building nearEntities ["Exile_Unit_Player", 25]);
-	if ((count _nearPlayers) >= 1) then 
+	if (_nearPlayersCount >= 1) then 
 	{
 		_skippedBuildings pushback _x;
 		continue;
